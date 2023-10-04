@@ -193,8 +193,10 @@ main {
 
 .contact-info-container .icon {
     cursor: pointer;
-    margin-right: 10px;
+    margin-right: 7px;
     fill: var(--main-grey);
+    position: relative;
+    margin-top: 2px;
 }
 .contact-info-container .icon:hover {
     fill: var(--main-blue);
@@ -491,8 +493,9 @@ main {
    fill: var(--main-blue);
    cursor: pointer;
 }
-.elipse-group:hover .icon {
+.elipse-group:hover .icon{
     fill: #fff;
+    
 }
 .elipse-group ellipse:focus {
     fill: var(--main-blue);
